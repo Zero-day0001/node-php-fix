@@ -118,7 +118,7 @@ function runPHP(req, response, next, phpdir){
 		}); 
 		
 	} else {
-		response.sendFile(file);
+		response.sendfile(file);
 		//response.end(); 
 		//next(); 
 	}
